@@ -1,0 +1,2005 @@
+
+  /* PERSONALIZADOS */
+
+  #cuerpo,
+  .cuerpo {
+    padding: 0;
+    background-color: #fff;
+    width: 100%;
+    margin: 0 auto;
+    overflow: inherit;
+  }
+
+  #cuerpo,
+  .cuerpo,
+  .main {
+    font-family: "Montserrat", sans-serif !important;
+  }
+
+  div p:last-child {
+    font-family: "Montserrat", Arial, Helvetica, sans-serif !important;
+  }
+
+  .padding-margin-cero {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  .slick-dotted.slick-slider {
+    margin-bottom: 50px !important;
+  }
+
+  /* ********************** */
+
+  /* DISPLAY NONE */
+
+  .preguntas-mobile {
+    display: none;
+  }
+
+  .seccion-suelta {
+    display: none;
+  }
+
+  /* BANNER PRINCIPAL */
+  .padding-banner {
+    padding: 0 !important;
+  }
+
+  .row-banner {
+    width: 100% !important;
+  }
+
+  .contenedor-banner {
+    display: flex;
+    align-items: center;
+    background-image: url(https://www.clinicabupasantiago.cl/clinica_santiago/site/artic/20210505/imag/foto_0000000520210505164237.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 400px;
+  }
+
+  .contenedor-banner .caja-azul {
+    background-color: #0079c8;
+    margin-left: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    width: 461px;
+  }
+
+  .contenedor-banner .caja-azul h1 {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 39px;
+    color: #ffffff;
+    text-align: start;
+  }
+
+  /* SUBTITULO BANNER */
+  .subtitulo-banner {
+    padding: 30px 0;
+  }
+
+  .subtitulo-banner p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: center;
+    color: #4c4c4c;
+  }
+
+  /* CARDS */
+
+  .card-info .flecha-izq {
+    display: none;
+  }
+
+  .card-info .flecha-der {
+    display: none;
+  }
+
+  .card-contenedor {
+    display: flex;
+    justify-content: center;
+    width: 100% !important;
+  }
+
+  .card-info {
+    box-shadow: 2px 2px 10px 3px rgba(90, 90, 90, 0.2);
+    border-radius: 12px;
+    padding: 30px 60px;
+    margin: 10px 0 30px 0;
+  }
+
+  .card-info h2 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+    text-align: start;
+    color: #4c4c4c;
+    width: 290px;
+  }
+
+  .card-info p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: start;
+    color: #4c4c4c;
+    width: 830px;
+  }
+
+  /* CONTENIDO PREGUNTAS */
+  .contenedor-preguntas {
+    display: flex;
+    justify-content: center;
+    padding: 20px 10px;
+  }
+
+  .contenedor-padre-preguntas .parrafos-preguntas img {
+    position: absolute;
+    width: 5%;
+    margin-left: -2px;
+  }
+
+  .contenedor-padre-preguntas .parrafos-preguntas h2 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+    color: #4c4c4c;
+    padding-left: 111px;
+    padding-bottom: 35px;
+    margin-left: -20px;
+  }
+  
+
+  .contenedor-padre-preguntas .parrafos-preguntas h2 .signo-boton {
+    width: 9% !important;
+    padding: 0 0 0 15px;
+    display: none;
+  }
+
+  .contenedor-padre-preguntas .parrafos-preguntas h2 span {
+    color: #0079c8 !important;
+    font-size: 24px !important;
+    font-weight: 700 !important;
+    line-height: 29px !important;
+    font-family: "Montserrat", sans-serif !important;
+    display: inline;
+  }
+
+  .contenedor-padre-preguntas .parrafos-preguntas p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    padding-bottom: 15px;
+    text-align: start;
+    color: #4c4c4c;
+  }
+
+  .contenedor-padre-preguntas .parrafos-preguntas ul li {
+    margin-left: 20px;
+    list-style-type: disc;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    color: #4c4c4c;
+  }
+
+  .contenedor-padre-preguntas .parrafos-preguntas ul {
+    margin-bottom: 21px;
+  }
+
+  /* CONTENIDO GREEN */
+
+  .row-green {
+    width: 100% !important;
+  }
+
+  .grilla-diagnosticos {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    background-color: #008385;
+    padding: 30px;
+    margin-bottom: 20px;
+    margin-top: 15px;
+  }
+
+  .grilla-diagnosticos .estudios {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    text-align: left;
+    max-width: 100%;
+    border-right: solid 1px #ffffff;
+    padding-right: 105px;
+  }
+
+  .grilla-diagnosticos .diagnostico {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-around;
+  }
+
+  .grilla-diagnosticos .diagnostico .item {
+    display: flex;
+    flex-direction: column;
+    row-gap: 12px;
+    width: 317px;
+    padding: 30px;
+  }
+
+  .grilla-diagnosticos .diagnostico .item .contenedor-datos img {
+    margin: 0px 106px 20px;
+  }
+
+  .grilla-diagnosticos .diagnostico .item .contenedor-datos p {
+    font-size: 16px !important;
+    font-weight: 700 !important;
+    line-height: 19px !important;
+    color: #ffffff !important;
+    text-align: center;
+  }
+
+  .grilla-diagnosticos .diagnostico .item .contenedor-datos p span {
+    font-weight: 400;
+  }
+
+  .estudios .titulo-estudios p {
+    width: 375px;
+    color: #ffffff;
+    font-size: 24px !important;
+    font-weight: 400;
+    line-height: 29px;
+  }
+
+  /* PREGUNTAS 2 */
+
+  .contenedor-padre-preguntas .parrafos-preguntas .padding-parrafo {
+    padding: 20px 0;
+  }
+
+  .contenedor-padre-preguntas .parrafos-preguntas ul .li-preguntas-dos {
+    margin-left: 20px;
+    list-style-type: disc;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    color: #4c4c4c;
+    margin-left: 121px;
+  }
+
+  .contenedor-padre-preguntas .parrafos-preguntas ul .img-persona {
+    width: 6% !important;
+  }
+
+  .contenedor-padre-preguntas .parrafos-preguntas h2 .signo-boton-dos {
+    display: none;
+  }
+
+  /* SECCION CENTRAL AZUL */
+
+  .caja-central-azul {
+    background-color: #2777c4;
+    padding: 37px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  .contenido-caja-azul {
+    width: 480px;
+  }
+
+  .contenido-caja-azul h3 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+    color: #ffffff;
+    margin-bottom: 15px;
+  }
+
+  .contenido-caja-azul p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    color: #ffffff;
+  }
+
+  .caja-central-imagen img {
+    width: 100% !important;
+  }
+
+  .seccion-suelta .parrafo-suelto {
+    text-align: center;
+  }
+
+  /* SECCION CARDS */
+
+  .contenedor-cards {
+    display: flex;
+  }
+
+  .tarjetas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .contenido-tarjetas {
+    width: 350px;
+    padding: 20px;
+  }
+
+  .contenido-tarjetas img {
+    display: block;
+    margin: auto;
+    padding: 0 0 15px 0;
+  }
+
+  .contenido-tarjetas p {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #4c4c4c;
+  }
+
+  .contenido-tarjetas p span {
+    font-weight: 700 !important;
+    color: #2777c4 !important;
+  }
+
+  .contenido p span {
+    font-weight: 700 !important;
+  }
+
+  .linea-divisora {
+    display: none !important;
+  }
+
+  .row-set-padding {
+    margin-bottom: -25px !important;
+  }
+
+  /*  BOTON FINAL */
+  .contenedor-linea {
+    display: flex;
+    justify-content: center;
+    margin-top: -30px;
+  }
+
+  .contenedor-linea hr {
+    width: 80%;
+  }
+
+  /* BOTON DUPLICADO */
+   /*  .contenedor-cotizar-plan {         
+        display: flex !important;
+        width: 100% !important;
+        align-items: center !important;
+        justify-content: center !important;
+    }  */
+
+    .contenido p {
+    text-align: center !important;
+    font-size: 18px !important;
+    line-height: 24px !important;
+    font-weight: 400 !important;
+    color: #4c4c4c !important;
+    padding: 20px 0 !important;
+    width: 990px;
+    display: block !important;
+    margin: auto !important;
+  } 
+
+  /* BOTON DUPLICADO */
+  /*  .btn-cotizar {                       
+        background: #c60b7e !important;
+        display: inline-block !important;
+        padding: 8px 25px !important;
+        border-radius: 10px !important;
+        color: #fff !important;
+        text-align: center !important;
+        font-size: 20px !important;
+        font-weight: 700 !important;
+        margin: 30px 0 30px !important;
+        text-decoration: none !important; 
+    } */
+
+  .reserva-div {
+    width: 100% !important;
+    padding: 16px 0 !important;
+    text-align: center !important;
+    background-color: #c60b7e !important;
+    position: sticky !important;
+    bottom: 0 !important;
+    left: 0 !important;
+    z-index: 10 !important;
+  }
+
+  .reserva-div .btn-blanco {
+    background: #fff !important;
+    display: inline-block !important;
+    padding: 8px 25px !important;
+    border-radius: 10px !important;
+    color: #c60b7e !important;
+    text-align: center !important;
+    font-size: 20px !important;
+    font-weight: 700 !important;
+    text-decoration: none !important;
+  }
+
+  .row-boton {
+    width: 100% !important;
+  }
+
+
+  /* header y footer */
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.nav-mobile {
+    display: none;
+}
+
+
+.contenedor-lado-izq , .contenedor-lado-der{
+    display: flex;
+    background-color: #f2f1f1;
+    justify-content: center;
+    align-items: center;
+    height: 60px; 
+    width: 100%;
+}
+
+.back-row-nav {
+    background-color: #F9F9F9;
+    width: 100%;
+}
+
+.row {
+    --bs-gutter-x: 0 !important;
+}
+
+
+.nav-lado-izq a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 20px;
+    margin-right: 50px;
+}
+
+.nav-lado-izq a:hover {
+    background-color: #1779C8;
+    color: #FFFFFF;
+    border-radius: 8px;
+    padding: 5px 5px;
+}
+
+.cotizacion-azul {
+    text-decoration: none;
+    background-color: #f2f1f1;
+    border: 1px solid #1779C8;
+    color: #1779C8;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 10px 15px;
+}
+
+.cotizacion-naranja {
+    text-decoration: none;
+    background-color: rgb(230, 100, 61);
+    border: 1px solid rgb(230, 100, 61);
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 10px 15px;
+}
+
+.numero-a , .contacto-a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.contenedor-nav-buscador {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-buscador {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.logo-cruz-blanca {
+    width: 25%;
+}
+
+.nav-buscador input {
+     width: 50%;
+     margin: 0 35px;
+}
+
+.logo-segundo-cruz-blanca {
+    width: 6%;
+}
+
+.contenedor-sub-titulos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.nav-subtitulos {
+    display: flex;
+    margin-top: 30px;
+}
+
+.nav-subtitulos a {
+    text-decoration: none;
+    color: #1779C8;
+    font-size: 18px;
+    font-weight: 700;
+    margin-right: 40px;
+}
+
+.nav-subtitulos a:hover {
+    background-color: #000000;
+    color: #FFFFFF;
+    border-radius: 12px;
+    padding: 5px 8px;
+}
+
+
+
+
+
+
+/* FOOTER */
+
+footer {
+    background-color: #1779C8;
+    height: 400px;
+    padding: 40px;
+    width: 100%;
+}
+
+.footer-100 {
+    width: 100%;
+}
+
+.contenedor-footer-1 , .contenedor-footer-2 , .contenedor-footer-3 , .contenedor-footer-4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+}
+
+.contenedor-footer-1 img {
+    padding-bottom: 30px;
+}
+
+.contenedor-footer-1 div a h4 , .contenedor-footer-2 div a h4 , .contenedor-footer-3 div a h4 , .contenedor-footer-4 div a h4 {
+     color: #FFFFFF;
+     font-size: 18px;
+     font-weight: 700;
+     text-decoration: none;
+}
+
+.footer-iconos {
+    margin: 30px 0 0 60px;
+    display: flex;
+}
+
+.logo-facebook {
+   width: 50%;
+   position: relative;
+   left: 20px;
+}
+
+.logo-twiter {
+    width: 50%;
+    position: relative;
+    left: -10px;
+}
+
+.logo-youtube {
+    width: 50%;
+    position: relative;
+    left: -40px;
+}
+
+.contenedor-footer-1 div a , .contenedor-footer-2 div a , .contenedor-footer-3 div a , .contenedor-footer-4 div a {
+    color: #FFFFFF;
+     font-size: 16px;
+     font-weight: 400;
+     text-decoration: none;
+     display: block;
+     margin-bottom: 5px;
+}
+
+.contenedor-footer-1 div a:hover , .contenedor-footer-2 div a:hover , .contenedor-footer-3 div a:hover , .contenedor-footer-4 div a:hover {
+    color: #000000;
+}
+
+
+
+/* MENU HAMBURGUESA */
+
+body{margin:0;padding:0;}
+.hamburger{
+	position:fixed;
+  background-color:transparent;
+	left:0;
+	top:0;
+	height:30px;
+	width:30px;
+	padding:25px 30px;
+	-webkit-transform:translate3d(0, 0, 0);
+	transform:translate3d(0, 0, 0);
+	-webkit-transition:-webkit-transform 0.25s cubic-bezier(0.05, 1.04, 0.72, 0.98);
+	transition:transform 0.25s cubic-bezier(0.05, 1.04, 0.72, 0.98);
+	z-index:1002;
+	cursor:pointer;
+	-webkit-user-select:none;
+	-moz-user-select:none;
+	-ms-user-select:none;
+	user-select:none
+}
+.hamburger.is-active{
+  background-color:none;
+}
+._layer{
+	background:#FFFFFF;
+	margin-bottom:4px;
+	border-radius:2px;
+	width:28px;
+	height:4px;
+	opacity:1;
+	-webkit-transform:translate3d(0, 0, 0);
+	transform:translate3d(0, 0, 0);
+	-webkit-transition:all 0.25s cubic-bezier(0.05, 1.04, 0.72, 0.98);
+	transition:all 0.25s cubic-bezier(0.05, 1.04, 0.72, 0.98);
+}
+.hamburger:hover .-top{
+	-webkit-transform:translateY(-100%);
+	-ms-transform:translateY(-100%);
+	transform:translateY(-100%);
+}
+.hamburger:hover .-bottom{
+	-webkit-transform:translateY(50%);
+	-ms-transform:translateY(100%);
+	transform:translateY(100%);
+	}
+.hamburger.is-active .-top{
+	-webkit-transform:translateY(200%) rotate(45deg) !important;
+	-ms-transform:translateY(200%) rotate(45deg) !important;
+	transform:translateY(200%) rotate(45deg) !important;
+}
+.hamburger.is-active .-mid{
+	opacity:0;
+}
+.hamburger.is-active .-bottom{
+	-webkit-transform:translateY(-200%) rotate(135deg) !important;
+	-ms-transform:translateY(-200%) rotate(135deg) !important;
+	transform:translateY(-200%) rotate(135deg) !important;
+}
+
+.menuppal.is_active{
+  transform: translate3d(0px, 0px, 0px);
+}
+.menuppal{
+   background-color: #1779C8;
+    bottom: 0;
+    height: 320px;
+    left: 0;
+    overflow-y: scroll;
+    position: fixed;
+    top: 0;
+    transform: translate3d(0px, -100%, 0px);
+    transition: transform 0.35s cubic-bezier(0.05, 1.04, 0.72, 0.98) 0s;
+    width: 100%;
+    z-index: 1001;
+}
+.menuppal ul{
+  margin:0;padding:0;
+}
+.menuppal ul li { 
+  list-style: none;
+	text-align:center;
+	font-family: Verdadna, Arial, Helvetica;
+	font-size:1.5rem;
+	line-height:3em;
+	height:3em;
+    color: #369;
+	text-transform:none;
+	font-weight:bold;
+}
+.menuppal ul li a{
+  text-decoration:none;
+  color:#FFFFFF;
+}
+.menuppal ul li a:hover{
+  text-decoration:none;
+  color:#333;
+}
+
+
+  /*  BRAKEPOINTS */
+
+
+@media (max-width: 413.98px) {
+
+    .slick-card {
+        flex-direction: column;
+    }
+
+    .card-info {
+        width: 350px;
+        height: 415px !important;
+    }
+
+    .row-green {
+        display: none !important;
+    }
+
+    .ultima-caja {
+        padding: 0;
+    }
+
+    .nav-mobile {
+        display: flex;
+        background-color: #1779C8;
+        width: 100%;
+        height: 70px;
+        margin-bottom: 50px;
+    }
+
+    .nav-desktop {
+        display: none;
+    }
+
+    .logo-mobile-nav {
+        position: relative;
+        left: 170px;
+        padding-top: 10px;
+    }
+
+   .contenedor-footer-2, .contenedor-footer-3, .contenedor-footer-4 {
+       display: none;
+   }
+
+.card-info {
+  padding: 30px 40px;
+  height: 530px !important;
+}
+
+.slick-dotted.slick-slider {
+margin-bottom: 50px !important;
+}
+}
+
+
+  @media (max-width: 575.98px) {
+
+    .nav-mobile {
+        display: flex;
+        background-color: #1779C8;
+        width: 100%;
+        height: 70px;
+        margin-bottom: 50px;
+    }
+
+    .nav-desktop {
+        display: none;
+    }
+
+    .logo-mobile-nav {
+        position: relative;
+        left: 170px;
+        padding-top: 10px;
+    }
+
+    .contenedor-footer-2, .contenedor-footer-3, .contenedor-footer-4 {
+        display: none;
+    }
+
+    .slick-card {
+      display: flex;
+    }
+
+    .row-set-padding {
+      margin-bottom: 0 !important;
+    }
+
+    .caja-central-azul {
+      margin-bottom: 25px;
+    }
+
+    .card-info .flecha-izq {
+      display: none;
+      width: 5% !important;
+      position: absolute;
+      padding-top: 30px;
+      margin-left: 30px;
+
+    }
+
+    .card-info .flecha-der {
+      display: none;
+      width: 5% !important;
+      position: absolute;
+      margin-left: 185px;
+      padding-top: 30px;
+    }
+
+    .cuerpo > .row,
+    .cuerpo > .tablerow,
+    .col1,
+    .col2,
+    .col3,
+    .col4,
+    .col5,
+    .col6,
+    .col7,
+    .col8,
+    .col9,
+    .col10,
+    .col11,
+    .col12,
+    .landing form,
+    .landing .col8 .btn-cotizar {
+      padding: 0 !important;
+    }
+
+    .contenedor-banner {
+      background-image: url(https://www.clinicabupasantiago.cl/clinica_santiago/site/artic/20210505/imag/foto_0000001420210505164237.png);
+      width: 100% !important;
+      height: 186px;
+    }
+
+    .contenedor-banner .caja-azul {
+      margin: 10px 0 0 20px;
+      padding: 10px 20px;
+      width: 197px;
+    }
+
+    div p:last-child {
+      font-family: "Montserrat", Arial, Helvetica, sans-serif !important;
+    }
+
+    .contenedor-banner .caja-azul h1 {
+      font-size: 18px !important;
+      line-height: 22px;
+      width: 215px;
+    }
+
+    .card-contenedor {
+      flex-direction: column !important;
+      width: 20% !important;
+    }
+
+    .subtitulo-banner p {
+      font-size: 16px !important;
+      text-align: center;
+    }
+
+    .card-info h2 {
+      font-size: 20px !important;
+      width: auto;
+    }
+
+    .card-info {
+      padding: 30px 40px;
+      height: 470px;
+    }
+
+    .contenedor-preguntas {
+      padding: 0 10px;
+      margin-top: -15px;
+    }
+
+    .contenedor-padre-preguntas .parrafos-preguntas img {
+      width: 15% !important;
+      margin: 6px;
+      margin-left: 0;
+    }
+
+    .contenedor-padre-preguntas .parrafos-preguntas h2 {
+      font-size: 18px !important;
+      line-height: 22px !important;
+    }
+
+    .contenedor-padre-preguntas .parrafos-preguntas h2 span {
+      font-size: 18px !important;
+      line-height: 22px !important;
+    }
+
+    .contenedor-padre-preguntas .parrafos-preguntas h2 .signo-boton {
+      display: flex;
+      position: absolute;
+      margin: -14px 0 0 105px;
+    }
+
+    .card-info p {
+      width: auto;
+    }
+
+    .estudios .titulo-estudios p {
+      font-size: 20px !important;
+      line-height: 24px !important;
+      padding: 20px !important;
+      margin-left: 120px !important;
+    }
+
+    .grilla-diagnosticos .diagnostico {
+      width: 90% !important;
+      height: 260px;
+      flex-direction: column-reverse;
+      align-items: normal;
+      justify-content: end;
+    }
+
+    .grilla-diagnosticos .estudios {
+      border-right: none;
+      padding-right: none;
+      border-bottom: 1px solid #ffffff;
+      padding-bottom: 30px;
+    }
+
+    .grilla-diagnosticos .diagnostico .item .contenedor-datos img {
+    margin: 0px 96px 20px;
+  }
+
+    .contenedor-padre-preguntas .parrafos-preguntas h2 .signo-boton-dos {
+      display: flex;
+      position: absolute;
+      margin: -14px 0 0 145px;
+      width: 5% !important;
+    }
+
+
+
+    .contenedor-padre-preguntas .parrafos-preguntas .img-persona {
+      display: none;
+    }
+
+    .contenedor-padre-preguntas .parrafos-preguntas ul .li-preguntas-dos {
+      margin-left: 20px !important;
+    }
+
+    .contenido-caja-azul h3 {
+      font-size: 18px !important;
+      line-height: 23px;
+    }
+
+    .contenido-caja-azul p {
+      font-size: 16px !important;
+    }
+
+    .caja-central-imagen img {
+      display: none;
+    }
+
+    .contenido p {
+      font-size: 16px !important;
+      width: auto !important;
+    }
+
+    .linea-divisora {
+      display: block !important;
+      margin: 30px 0 !important;
+      width: 90% !important;
+      margin: auto !important;
+    }
+
+    /* PREGUNTAS MOBILE */
+    .parrafos-preguntas {
+      display: none !important;
+    }
+
+    .preguntas-mobile {
+      display: block;
+    }
+
+    .seccion-suelta {
+      display: block;
+      margin-top: -15px;
+    }
+
+    .tarjetas {
+      display: none !important;
+    }
+
+    .seccion-suelta .parrafo-suelto {
+    text-align: center;
+    margin: 15px 0 !important;
+    }
+
+
+    /* SECCION CARDS */
+
+    .tarjetas-mobile {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      width: 270px !important;
+    }
+
+    .contenido-tarjetas-mobile {
+      padding: 20px 0;
+    }
+
+    .contenido-tarjetas-mobile img {
+      display: block;
+      margin: auto;
+      padding: 0 0 10px 0;
+    }
+
+    .contenido-tarjetas-mobile p {
+      text-align: center;
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 24px;
+      color: #4c4c4c;
+    }
+
+    .contenido-tarjetas-mobile p span {
+      font-weight: 700 !important;
+      color: #2777c4 !important;
+    }
+
+    /* ESTILOS BTN ACORDEON */
+    .btn-desplegable {
+      background-color: #ffffff;
+      color: #4c4c4c;
+      cursor: pointer;
+      padding: 18px;
+      border: none;
+      text-align: left;
+      outline: #ffffff !important;
+      font-size: 18px;
+      transition: 0.4s;
+      line-height: 22px;
+      margin-left: 55px;
+      font-weight: 700;
+    }
+
+    .btn-desplegable span {
+      color: #2777c4 !important;
+    }
+
+    .btn-desplegable .signo-boton {
+      position: absolute;
+      margin: -14px 0 0 130px;
+      width: 5% !important;
+    }
+
+    .panel {
+      padding: 0 18px;
+      display: none;
+      background-color: white;
+      overflow: hidden;
+    }
+
+    .panel .padding-parrafo {
+      padding-top: 20px;
+    }
+
+    .preguntas-mobile img {
+      width: 12% !important;
+      margin-top: -22px;
+      position: absolute;
+      margin: 24px 0 0 8px;
+    }
+    .panel ul {
+      padding-top: 15px;
+    }
+
+    .panel ul li {
+      list-style-type: disc;
+      margin-left: 18px;
+    }
+
+    .tarjetas-mobile .contenido-tarjetas-mobile img {
+      display: block !important;
+      margin: auto !important;
+      padding: 0 0 10px 0 !important;
+      position: unset !important;
+    }
+
+    .preguntas-mobile .img-persona {
+      width: 7% !important;
+      position: absolute;
+      margin: 14px 0 0 18px;
+    }
+
+    .panel .parrafo-mobile-3 {
+      margin-bottom: 20px !important;
+      margin-top: 20px !important;
+    }
+
+    .panel .parrafo-mobile-4 {
+      margin-top: 15px;
+      margin-bottom: 20px !important;
+    }
+
+    footer {
+      margin-top: -15px;
+    }
+  }
+
+  /* 576 a 767.98 */
+
+  @media (min-width: 576px) and (max-width: 767.98px) {
+
+    
+    .slick-card {
+        flex-direction: column;
+    }
+
+    .card-info {
+        width: 500px;
+        height: 300px !important;
+    }
+
+    .row-green {
+        display: none !important;
+    }
+
+    .ultima-caja {
+        padding: 0;
+    }
+
+    .nav-mobile {
+        display: flex;
+        background-color: #1779C8;
+        width: 100%;
+        height: 70px;
+        margin-bottom: 50px;
+    }
+
+    .nav-desktop {
+        display: none;
+    }
+
+    .logo-mobile-nav {
+        position: relative;
+        left: 360px;
+        padding-top: 10px;
+    }
+
+    .contenedor-footer-1 {
+        align-items: baseline;
+    }
+
+    .contenedor-footer-2, .contenedor-footer-3, .contenedor-footer-4 {
+        display: none;
+    }
+
+    .footer-iconos {
+        position: absolute;
+        flex-direction: column;
+    }
+
+    .logo-facebook {
+        width: 30%;
+        left: 300px;
+    }
+
+    .logo-twiter {
+        width: 30%;
+        left: 300px;
+    }
+
+    .logo-youtube {
+        width: 30%;
+        left: 300px;
+    }
+
+    .row-set-padding {
+      margin-bottom: 0 !important;
+    }
+
+    .caja-central-azul {
+      margin-bottom: 25px;
+    }
+
+    .contenedor-linea {
+      margin-top: -20px;
+    }
+
+    .card-info .flecha-izq {
+      display: none;
+      width: 4% !important;
+      position: absolute;
+      padding-top: 30px;
+      margin-left: 50px;
+
+    }
+
+    .card-info .flecha-der {
+      display: none;
+      width: 4% !important;
+      position: absolute;
+      margin-left: 320px;
+      padding-top: 30px;
+    }
+
+    .cuerpo > .row,
+    .cuerpo > .tablerow,
+    .col1,
+    .col2,
+    .col3,
+    .col4,
+    .col5,
+    .col6,
+    .col7,
+    .col8,
+    .col9,
+    .col10,
+    .col11,
+    .col12,
+    .landing form,
+    .landing .col8 .btn-cotizar {
+      padding: 0 !important;
+    }
+
+    .contenedor-banner {
+      background-image: url(https://www.clinicabupasantiago.cl/clinica_santiago/site/artic/20210505/imag/foto_0000001420210505164237.png);
+      width: 100% !important;
+      height: 280px;
+    }
+
+    .contenedor-banner .caja-azul {
+      margin-left: 30px;
+      padding: 20px 40px;
+      width: 240px;
+    }
+
+    div p:last-child {
+      font-family: "Montserrat", Arial, Helvetica, sans-serif !important;
+    }
+
+    .contenedor-banner .caja-azul h1 {
+      font-size: 18px !important;
+      line-height: 22px;
+      width: 215px;
+    }
+
+    .card-contenedor {
+      flex-direction: column !important;
+      width: 20% !important;
+    }
+
+    .subtitulo-banner p {
+      font-size: 16px !important;
+      text-align: center;
+    }
+
+    .card-info h2 {
+      font-size: 20px !important;
+      width: auto;
+    }
+
+    .card-info {
+      padding: 30px 40px;
+      height: 380px;
+    }
+
+    .contenedor-preguntas {
+      padding: 0 10px;
+    }
+
+    .contenedor-padre-preguntas .parrafos-preguntas img {
+      width: 15% !important;
+      margin: 6px;
+      margin-left: 0;
+    }
+
+    .contenedor-padre-preguntas .parrafos-preguntas h2 {
+      font-size: 18px !important;
+      line-height: 22px !important;
+    }
+
+    .contenedor-padre-preguntas .parrafos-preguntas h2 span {
+      font-size: 18px !important;
+      line-height: 22px !important;
+    }
+
+    .contenedor-padre-preguntas .parrafos-preguntas h2 .signo-boton {
+      display: flex;
+      position: absolute;
+      margin: -14px 0 0 105px;
+    }
+
+    .card-info p {
+      width: auto;
+    }
+
+    .estudios .titulo-estudios p {
+      font-size: 20px !important;
+      line-height: 24px !important;
+      padding: 20px !important;
+      margin-left: 120px !important;
+    }
+
+    .grilla-diagnosticos .diagnostico .item .contenedor-datos {
+      width: 300px;
+      margin-left: 39px;
+    }
+
+    .grilla-diagnosticos .diagnostico .item .contenedor-datos img {
+      margin: 0 126px 19px;
+    }
+
+    .grilla-diagnosticos .estudios {
+      border-right: none;
+      padding-right: none;
+      border-bottom: 1px solid #ffffff;
+      padding-bottom: 30px;
+    }
+
+    .grilla-diagnosticos .diagnostico {
+      width: 85% !important;
+      height: 230px;
+      flex-direction: column-reverse;
+      align-items: normal;
+      justify-content: end;
+    }
+
+    .contenedor-padre-preguntas .parrafos-preguntas h2 .signo-boton-dos {
+      display: flex;
+      position: absolute;
+      margin: -14px 0 0 145px;
+      width: 5% !important;
+    }
+
+    .contenedor-padre-preguntas .parrafos-preguntas .img-persona {
+      display: none;
+    }
+
+    .contenedor-padre-preguntas .parrafos-preguntas ul .li-preguntas-dos {
+      margin-left: 20px !important;
+    }
+
+    .contenido-caja-azul h3 {
+      font-size: 18px !important;
+      line-height: 23px;
+    }
+
+    .contenido-caja-azul p {
+      font-size: 16px !important;
+    }
+
+    .caja-central-imagen img {
+      display: none;
+    }
+
+    .contenido p {
+      font-size: 16px !important;
+      width: auto !important;
+    }
+
+    .linea-divisora {
+      display: block !important;
+      margin: 30px 0 !important;
+      width: 90% !important;
+      margin: auto !important;
+    }
+
+    .caja-central-azul {
+      width: 515px;
+    }
+
+    /* PREGUNTAS MOBILE */
+    .parrafos-preguntas {
+      display: none !important;
+    }
+
+    .preguntas-mobile {
+      display: block;
+    }
+
+    .seccion-suelta {
+      display: block;
+    }
+
+    .tarjetas {
+      display: none !important;
+    }
+
+    .seccion-suelta .parrafo-suelto {
+    text-align: center;
+    margin: 15px 0 !important;
+    }
+
+
+    /* SECCION CARDS */
+
+    .tarjetas-mobile {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      width: 320px !important;
+      margin-left: 44px;
+    }
+
+    .contenido-tarjetas-mobile {
+      padding: 20px 0;
+    }
+
+    .contenido-tarjetas-mobile img {
+      display: block;
+      margin: auto;
+      padding: 0 0 10px 0;
+    }
+
+    .contenido-tarjetas-mobile p {
+      text-align: center;
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 24px;
+      color: #4c4c4c;
+    }
+
+    .contenido-tarjetas-mobile p span {
+      font-weight: 700 !important;
+      color: #2777c4 !important;
+    }
+
+    /* ESTILOS BTN ACORDEON */
+    .btn-desplegable {
+      background-color: #ffffff;
+      color: #4c4c4c;
+      cursor: pointer;
+      padding: 18px;
+      border: none;
+      text-align: left;
+      outline: #ffffff !important;
+      font-size: 18px;
+      transition: 0.4s;
+      line-height: 22px;
+      margin-left: 80px;
+      font-weight: 700;
+    }
+
+    .btn-desplegable span {
+      color: #2777c4 !important;
+    }
+
+    .btn-desplegable .signo-boton {
+      position: absolute;
+      margin: -14px 0 0 130px;
+      width: 4% !important;
+    }
+
+    .panel {
+      padding: 0 18px;
+      display: none;
+      background-color: white;
+      overflow: hidden;
+    }
+
+    .panel .padding-parrafo {
+      padding-top: 20px;
+    }
+
+    .preguntas-mobile img {
+      width: 12% !important;
+      margin-top: -22px;
+      position: absolute;
+      margin: 24px 0 0 8px;
+    }
+    .panel ul {
+      padding-top: 15px;
+    }
+
+    .panel ul li {
+      list-style-type: disc;
+      margin-left: 18px;
+    }
+
+    .tarjetas-mobile .contenido-tarjetas-mobile img {
+      display: block !important;
+      margin: auto !important;
+      padding: 0 0 10px 0 !important;
+      position: unset !important;
+      width: 10% !important;
+    }
+
+    .preguntas-mobile .img-persona {
+      width: 6% !important;
+      position: absolute;
+      margin: 14px 0 0 38px;
+    }
+
+    .panel .parrafo-mobile-3 {
+      margin-bottom: 20px !important;
+      margin-top: 20px !important;
+    }
+
+    .panel .parrafo-mobile-4 {
+      margin-top: 15px;
+      margin-bottom: 20px !important;
+    }
+    .btn-cotizar {
+      padding: 12px 40px !important;
+    }
+
+    
+    footer {
+      margin-top: -15px;
+    }
+  }
+
+  /* 768 a 991.98 */
+
+  @media (min-width: 768px) and (max-width: 991.98px) {
+
+    .estudios .titulo-estudios p {
+        color: transparent;
+    }
+
+    .nav-mobile {
+        display: flex;
+        background-color: #1779C8;
+        width: 100%;
+        height: 70px;
+        margin-bottom: 50px;
+    }
+
+    .nav-desktop {
+        display: none;
+    }
+
+    .logo-mobile-nav {
+        position: relative;
+        left: 550px;
+        padding-top: 10px;
+    }
+
+    .contenedor-footer-1, .contenedor-footer-2, .contenedor-footer-3, .contenedor-footer-4 {
+        justify-content: flex-start;
+    }
+
+    .contenedor-footer-1 img {
+        display: none;
+    }
+    .cuerpo > .row,
+    .cuerpo > .tablerow,
+    .col1,
+    .col2,
+    .col3,
+    .col4,
+    .col5,
+    .col6,
+    .col7,
+    .col8,
+    .col9,
+    .col10,
+    .col11,
+    .col12,
+    .landing form,
+    .landing .col8 .btn-cotizar {
+      padding: 0 !important;
+    }
+
+    .card-info .flecha-izq {
+      display: none;
+      width: 3% !important;
+      position: absolute;
+      padding-top: 30px;
+      margin-left: 80px;
+
+    }
+
+    .card-info .flecha-der {
+      display: none;
+      width: 3% !important;
+      position: absolute;
+      margin-left: 475px;
+      padding-top: 30px;
+    }
+
+    .contenedor-banner {
+      background-image: url(https://www.clinicabupasantiago.cl/clinica_santiago/site/artic/20210505/imag/foto_0000001420210505164237.png);
+      width: 100%;
+      height: 280px;
+    }
+
+    .contenedor-banner .caja-azul {
+      margin-left: 70px;
+      padding: 20px 40px;
+      width: 273px;
+    }
+
+    div p:last-child {
+      font-family: "Montserrat", Arial, Helvetica, sans-serif !important;
+    }
+
+    .contenedor-banner .caja-azul h1 {
+      font-size: 22px !important;
+      line-height: 23px;
+      width: 215px;
+    }
+
+    .card-contenedor {
+      flex-direction: column !important;
+      width: 20% !important;
+    }
+
+    .subtitulo-banner p {
+      font-size: 16px !important;
+      text-align: center;
+    }
+
+    .card-info h2 {
+      font-size: 20px !important;
+      width: auto;
+    }
+
+    .card-info {
+      padding: 30px 40px;
+      height: 350px;
+    }
+
+    .contenedor-preguntas {
+      padding: 0 10px;
+    }
+
+    .contenedor-padre-preguntas .parrafos-preguntas img {
+      width: 15% !important;
+      margin: 6px;
+      margin-left: 0;
+    }
+
+    .contenedor-padre-preguntas .parrafos-preguntas h2 {
+      font-size: 18px !important;
+      line-height: 22px !important;
+    }
+
+    .contenedor-padre-preguntas .parrafos-preguntas h2 span {
+      font-size: 18px !important;
+      line-height: 22px !important;
+    }
+
+    .contenedor-padre-preguntas .parrafos-preguntas h2 .signo-boton {
+      display: flex;
+      position: absolute;
+      margin: -14px 0 0 105px;
+    }
+
+    .card-info p {
+      width: auto;
+    }
+
+    .estudios .titulo-estudios p {
+      font-size: 18px !important;
+      line-height: 24px !important;
+      padding: 20px !important;
+      margin-left: 120px !important;
+    }
+
+    .grilla-diagnosticos .diagnostico {
+      width: 75% !important;
+      height: 260px;
+      flex-direction: column-reverse;
+      align-items: normal;
+      justify-content: end;
+    }
+
+    .grilla-diagnosticos .diagnostico .item .contenedor-datos {
+      width: 300px;
+      margin-left: 90px;
+    }
+
+    .grilla-diagnosticos .diagnostico .item .contenedor-datos img {
+      margin: 0 126px 19px;
+    }
+
+
+    .grilla-diagnosticos .estudios {
+      border-right: none;
+      padding-right: none;
+      border-bottom: 1px solid #ffffff;
+      padding-bottom: 30px;
+    }
+
+    .contenedor-padre-preguntas .parrafos-preguntas h2 .signo-boton-dos {
+      display: flex;
+      position: absolute;
+      margin: -14px 0 0 145px;
+      width: 5% !important;
+    }
+
+    .contenedor-padre-preguntas .parrafos-preguntas .img-persona {
+      display: none;
+    }
+
+    .contenedor-padre-preguntas .parrafos-preguntas ul .li-preguntas-dos {
+      margin-left: 20px !important;
+    }
+
+    .caja-central-azul {
+      width: 694px;
+    }
+
+    .contenido-caja-azul {
+      width: 530px;
+    }
+
+    .contenido-caja-azul h3 {
+      font-size: 18px !important;
+      line-height: 23px;
+    }
+
+    .contenido-caja-azul p {
+      font-size: 16px !important;
+    }
+
+    .caja-central-imagen img {
+      display: none;
+    }
+
+    .contenido p {
+      font-size: 16px !important;
+      width: auto !important;
+    }
+
+    .linea-divisora {
+      display: block !important;
+      margin: 30px 0 !important;
+      width: 90% !important;
+      margin: auto !important;
+    }
+
+    /* PREGUNTAS MOBILE */
+    .parrafos-preguntas {
+      display: none !important;
+    }
+
+    .preguntas-mobile {
+      display: block;
+    }
+
+    .seccion-suelta {
+      display: block;
+    }
+
+    .tarjetas {
+      display: none !important;
+    }
+
+    .seccion-suelta .parrafo-suelto {
+    text-align: center;
+    margin: 15px 0 !important;
+    }
+
+
+    /* SECCION CARDS */
+
+    .tarjetas-mobile {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      width: 375px !important;
+      margin-left: 115px;
+    }
+
+    .contenido-tarjetas-mobile {
+      padding: 20px 0;
+    }
+
+    .contenido-tarjetas-mobile img {
+      display: block;
+      margin: auto;
+      padding: 0 0 10px 0;
+    }
+
+    .contenido-tarjetas-mobile p {
+      text-align: center;
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 24px;
+      color: #4c4c4c;
+    }
+
+    .contenido-tarjetas-mobile p span {
+      font-weight: 700 !important;
+      color: #2777c4 !important;
+    }
+
+    /* ESTILOS BTN ACORDEON */
+    .btn-desplegable {
+      background-color: #ffffff;
+      color: #4c4c4c;
+      cursor: pointer;
+      padding: 18px;
+      border: none;
+      text-align: left;
+      outline: #ffffff !important;
+      font-size: 18px;
+      transition: 0.4s;
+      line-height: 22px;
+      margin-left: 90px;
+      font-weight: 700;
+    }
+
+    .btn-desplegable span {
+      color: #2777c4 !important;
+    }
+
+    .btn-desplegable .signo-boton {
+      position: absolute;
+      margin: -14px 0 0 130px;
+      width: 3% !important;
+    }
+
+    .panel {
+      padding: 0 18px;
+      display: none;
+      background-color: white;
+      overflow: hidden;
+    }
+
+    .panel .padding-parrafo {
+      padding-top: 20px;
+    }
+
+    .preguntas-mobile img {
+      width: 9% !important;
+      margin-top: -22px;
+      position: absolute;
+      margin: 24px 0 0 8px;
+    }
+    .panel ul {
+      padding-top: 15px;
+    }
+
+    .panel ul li {
+      list-style-type: disc;
+      margin-left: 18px;
+    }
+
+    .tarjetas-mobile .contenido-tarjetas-mobile img {
+      display: block !important;
+      margin: auto !important;
+      padding: 0 0 10px 0 !important;
+      position: unset !important;
+      width: 9% !important;
+    }
+
+    .preguntas-mobile .img-persona {
+      width: 5% !important;
+      position: absolute;
+      margin: 9px 0 0 36px;
+    }
+
+    .panel .parrafo-mobile-3 {
+      margin-bottom: 20px !important;
+      margin-top: 20px !important;
+    }
+
+    .panel .parrafo-mobile-4 {
+      margin-top: 15px;
+      margin-bottom: 20px !important;
+    }
+
+    
+    footer {
+      margin-top: -15px;
+    }
+  }
+
+  /* 992 a 1199.98 */
+
+  @media (min-width: 992px) and (max-width: 1199.98px) {
+
+    .numero-a {
+        display: none;
+    }
+
+    .contacto-a {
+        display: none;
+    }
+
+    .nav-lado-izq a {
+        margin-right: 20px;
+    }
+
+    .contenedor-banner {
+      height: 260px;
+    }
+
+    .contenedor-banner .caja-azul {
+      padding: 25px;
+      width: 430px;
+      margin-left: 50px;
+    }
+
+    .grilla-diagnosticos {
+      flex-flow: row;
+    }
+
+    .estudios .titulo-estudios p {
+      font-size: 18px !important;
+      width: auto;
+    }
+
+    .btn-cotizar {
+      padding: 10px 30px !important;
+    }
+
+    .grilla-diagnosticos .estudios {
+      padding-right: 20px;
+    }
+
+    .estudios .titulo-estudios p {
+      width: 327px;
+    }
+
+    .grilla-diagnosticos .diagnostico .item {
+      flex-direction: row;
+      margin-left: 27px;
+    }
+
+    .caja-central-azul {
+      padding: 11.5px;
+    }
+
+    .contenido-caja-azul h3 {
+      font-size: 20px;
+    }
+
+    .contenido p {
+      width: auto;
+    }
+  }
+
+  /* 1200 */
+
+  @media (min-width: 1200px) {
+    .contenedor-banner {
+      height: 320px;
+    }
+
+    .contenedor-banner .caja-azul {
+      margin-left: 100px;
+    }
+
+    .grilla-diagnosticos .estudios {
+      padding-right: 55px;
+    }
+
+    .estudios .titulo-estudios p {
+      font-size: 20px !important;
+    }
+
+    .caja-central-azul {
+      padding: 37.5px;
+    }
+
+    .header nav ul.menu-nav li a {
+      margin-left: -11px !important;
+    }
+  }
